@@ -1,4 +1,3 @@
-from llm_guard.util import lazy_load_dep, logger
 
 from .base import Scanner
 import openai

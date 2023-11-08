@@ -15,6 +15,7 @@ from .relevance import Relevance
 from .sensitive import Sensitive
 from .sentiment import Sentiment
 from .toxicity import Toxicity
+from .filter_dangerous import Filter
 
 __all__ = [
     "BanSubstrings",
@@ -33,4 +34,5 @@ __all__ = [
     "Sensitive",
     "Sentiment",
     "Toxicity",
+    "Filter",
 ]
