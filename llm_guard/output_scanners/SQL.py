@@ -11,7 +11,7 @@ class SQLInjectionScanner(Scanner):
         """
         pass  # Add any initialization logic here
 
-    def scan(self, output: str) -> (str, bool, float):
+    def scan(self, output: str) -> (str, bool):
         """
         Scans the output text for potential SQL injection attempts.
 
