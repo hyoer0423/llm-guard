@@ -1,3 +1,4 @@
+from llm_guard.util import lazy_load_dep, logger
 
 from .base import Scanner
 import openai
@@ -27,7 +28,7 @@ class Reminder(Scanner):
         # sentiment = lazy_load_dep("nltk.sentiment", "nltk")
         # self._sentiment_analyzer = sentiment.SentimentIntensityAnalyzer()
         # self._threshold = threshold
-        openai.api_key = ''
+        openai.api_key = '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'
         
 
 

@@ -15,7 +15,8 @@ from .relevance import Relevance
 from .sensitive import Sensitive
 from .sentiment import Sentiment
 from .toxicity import Toxicity
-from .filter_dangerous import Filter
+from .SQL import SQLInjectionScanner
+
 
 __all__ = [
     "BanSubstrings",
@@ -33,6 +34,6 @@ __all__ = [
     "Relevance",
     "Sensitive",
     "Sentiment",
+    "SQL"
     "Toxicity",
-    "Filter",
 ]
