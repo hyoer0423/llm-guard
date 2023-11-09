@@ -11,7 +11,9 @@ from .sentiment import Sentiment
 from .token_limit import TokenLimit
 from .toxicity import Toxicity
 from .reminder import Reminder
+from .base_64 import BASE_64
 from .cot import COT
+
 
 __all__ = [
     "Anonymize",
@@ -26,5 +28,6 @@ __all__ = [
     "TokenLimit",
     "Toxicity",
     "Reminder",
+    "BASE_64",
     "COT"
 ]

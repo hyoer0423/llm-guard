@@ -37,7 +37,7 @@ class BASE_64(Scanner):
         value=isBase64()
         score=0
         if value==True:
-            prompt=base64.b64decode(prompt)
+            prompt=base64.b64decode(prompt).decode('utf-8')
         
         
-        return prompt.decode('utf-8'), value, score
+        return prompt, True, score
