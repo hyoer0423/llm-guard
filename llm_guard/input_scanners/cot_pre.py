@@ -55,7 +55,7 @@ class COT_PRE(Scanner):
         # if HARMFUL_PROMPT is end of string, then it is a jailbreak attempt
         is_safe = "HARMFUL_PROMPT_DETECTED" not in content
 
-        print("for cot_pre, the string is",content)
+        # print("for cot_pre, the string is",content)
         modified_prompt = self._sanitize_prompt(content) if not is_safe else prompt
 
         return substring, is_safe, 0

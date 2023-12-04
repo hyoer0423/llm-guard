@@ -55,7 +55,8 @@ class COT(Scanner):
         # if HARMFUL_PROMPT is end of string, then it is a jailbreak attempt
         is_safe = "HARMFUL_PROMPT_DETECTED" not in content
 
-        print("for COT, the analyzed result is",content)
+        # analyzing prompt
+        # print("for COT, the analyzed result is",content)
 
         return substring, is_safe, 0
 
