@@ -6,7 +6,7 @@ from llm_guard.output_scanners import Filter
 # from llm_guard.output_scanners import Toxicity
 
 
-openai.api_key = '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'
+openai.api_key = ''
 
 st.set_page_config(layout="wide", page_title="Guard LLM")
 st.title("Guard LLM")
